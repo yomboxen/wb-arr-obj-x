@@ -17,7 +17,9 @@ var arr = [10, 20, 30];
   Return the first item in the given array.
 */
 
-//Code Here
+function first(arr) {
+  return arr[0];
+}
 
 ////////// PROBLEM 2 //////////
 
@@ -30,12 +32,14 @@ var arr = [40, 50, 60];
   Return the last item in the given array.
 */
 
-//Code Here
+function last(arr) {
+  return arr[arr.length - 1];
+}
 
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
-var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
+var family = ["Tyler", "Jordyn", "Ryan", "Chelsey", "Ireland"];
 // Do not edit the code above.
 
 /*
@@ -43,12 +47,16 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
   Loop through the given array and alert every item in the array.
 */
 
-//Code Here
+function looper(family) {
+  for (let i = 0; i < family.length; i++) {
+    alert(family[i]);
+  }
+}
 
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-var letters = ['A', 'B', 'C', 'D', 'E'];
+var letters = ["A", "B", "C", "D", "E"];
 // Do not edit the code above.
 
 /*
@@ -56,7 +64,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the letters array, alerting every item in the array.
 */
 
-//Code Here
+function reversedLooper(letters) {
+  for (let i = letters.length - 1; i >= 0; i--) {
+    alert(letters[i]);
+  }
+}
 
 ////////// PROBLEM 5 //////////
 
@@ -69,7 +81,14 @@ var nums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
   Return an array that contains the even numbers from the nums array.
 */
 
-//Code Here
+function evenFinder(nums){
+  let arr = []
+  for(let i = 0; i < nums.length; i++){
+    if(nums[i] % 2 === 0) {
+      arr.push(nums[i]) 
+    } 
+  } return arr
+}
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -111,7 +130,7 @@ var getRandomArbitrary = function () {
 ////////// PROBLEM 8 //////////
 
 // Do not edit the code below.
-var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
+var myGroceryList = ["chips", "pizza", "hotpockets", "MtnDew", "corndogs"];
 // Do not edit the code above.
 
 /*
@@ -146,7 +165,7 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 ////////// PROBLEM 10 //////////
 
 // Do not edit the code below.
-var numbers = [5, '9', 16, 19, '25', '34', 48];
+var numbers = [5, "9", 16, 19, "25", "34", 48];
 // Do not edit the code above.
 
 /*
@@ -196,27 +215,27 @@ for (var i = 0; i < num2; i++) {
 var devMountainEmployees = [];
 
 var joe = {
-  name: 'Joe',
-  position: 'Instructor',
-  spiritAnimal: 'Honey Badger',
+  name: "Joe",
+  position: "Instructor",
+  spiritAnimal: "Honey Badger",
 };
 
 var cahlan = {
-  name: 'Cahlan',
-  position: 'CEO',
-  spiritAnimal: 'butterfly',
+  name: "Cahlan",
+  position: "CEO",
+  spiritAnimal: "butterfly",
 };
 
 var ryan = {
-  name: 'Ryan',
-  position: 'Marketing',
-  spiritAnimal: 'fox',
+  name: "Ryan",
+  position: "Marketing",
+  spiritAnimal: "fox",
 };
 
 var colt = {
-  name: 'Colt',
-  position: 'Everything really',
-  spiritAnimal: 'Young Male Horse',
+  name: "Colt",
+  position: "Everything really",
+  spiritAnimal: "Young Male Horse",
 };
 // Do not edit the code above.
 
@@ -255,10 +274,10 @@ var colt = {
 
 // Do not edit the code below.
 var user1 = {
-  name: 'Mark McIver',
-  email: 'mark.mciver@devmounta.in',
-  password: 'hunter2',
-  username: 'ihazcode',
+  name: "Mark McIver",
+  email: "mark.mciver@devmounta.in",
+  password: "hunter2",
+  username: "ihazcode",
 };
 // Do not edit the code above.
 
