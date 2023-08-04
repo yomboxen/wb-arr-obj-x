@@ -14,7 +14,10 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+const me = {
+  name: 'Luke',
+  age: '25',
+} alert()
 
 ////////// PROBLEM 2 //////////
 

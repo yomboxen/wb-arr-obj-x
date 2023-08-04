@@ -155,8 +155,10 @@ each(names, function (item, indice) {
   When the correct user object is found, invoke the callback with the user object as an argument.
 */
 
-function getUserById(arr, id, cb) {
-  
+function getUserById(users, id, cb) {
+  for(i = 0; i < users.length; i++){
+    for(j = )
+  }
 }
 
 // Do not edit the code below.
